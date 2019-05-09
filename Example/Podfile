@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LLBaseComponentLib_Example' do
+  pod 'LLBaseComponentLib', :path => '../'
+
+  target 'LLBaseComponentLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
