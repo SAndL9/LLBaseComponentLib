@@ -24,6 +24,7 @@
     [self.view addSubview:self.numberButton];
     _numberButton.delegate = self;
     _numberButton.maxNumber = 100;
+    _numberButton.backgroundColor = [UIColor lightGrayColor];
     [_numberButton setTitleWithIncreaseTitle:@"加" decreaseTitle:@"减"];
     
 }

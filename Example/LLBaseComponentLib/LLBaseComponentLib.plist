@@ -26,5 +26,17 @@
 		<key>ViewControllerName</key>
 		<string>LLNumberButtonViewController</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>横向滚动</string>
+		<key>ViewControllerName</key>
+		<string>LLHorizontalCollectionDemoViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>配送进度条</string>
+		<key>ViewControllerName</key>
+		<string>LLDistributionProgressViewController</string>
+	</dict>
 </array>
 </plist>

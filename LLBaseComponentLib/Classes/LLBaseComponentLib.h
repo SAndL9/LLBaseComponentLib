@@ -12,6 +12,6 @@
 #import "JLSliderView.h"//双向滑动
 #import "LLProgressView.h"//售出抢购进度条
 #import "LLNumberButton.h" //按钮加减器
-
-
+#import "LLHorizontalCollectionViewFlowLayout.h" //横向滚动
+#import "LLDistributionProgressView.h" //配送进度条
 #endif /* LLBaseComponentLib_h */

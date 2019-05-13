@@ -26,6 +26,9 @@
 		84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551C222285655F000550A1 /* LLSliderDemoViewController.m */; };
 		845B00292288FAB900D7E51D /* LLProgressDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B00282288FAB900D7E51D /* LLProgressDemoViewController.m */; };
 		845B00322289054B00D7E51D /* LLNumberButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B00312289054B00D7E51D /* LLNumberButtonViewController.m */; };
+		845B004522893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B004422893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m */; };
+		845B004822893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B004722893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m */; };
+		845B005C22894DB900D7E51D /* LLDistributionProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B005B22894DB900D7E51D /* LLDistributionProgressViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B6D6CB5961C85D4B2533C3F5 /* Pods_LLBaseComponentLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F5A1C81E4B7158AF9189D1 /* Pods_LLBaseComponentLib_Tests.framework */; };
 		BEB7A76792CF8926758FF15F /* Pods_LLBaseComponentLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F137306602F97D00AD60496 /* Pods_LLBaseComponentLib_Example.framework */; };
@@ -73,6 +76,12 @@
 		845B00282288FAB900D7E51D /* LLProgressDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressDemoViewController.m; sourceTree = "<group>"; };
 		845B00302289054B00D7E51D /* LLNumberButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNumberButtonViewController.h; sourceTree = "<group>"; };
 		845B00312289054B00D7E51D /* LLNumberButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNumberButtonViewController.m; sourceTree = "<group>"; };
+		845B004322893DB900D7E51D /* LLHorizontalCollectionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHorizontalCollectionDemoViewController.h; sourceTree = "<group>"; };
+		845B004422893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHorizontalCollectionDemoViewController.m; sourceTree = "<group>"; };
+		845B004622893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHorizontalCollectionDemoViewCell.h; sourceTree = "<group>"; };
+		845B004722893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHorizontalCollectionDemoViewCell.m; sourceTree = "<group>"; };
+		845B005A22894DB900D7E51D /* LLDistributionProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDistributionProgressViewController.h; sourceTree = "<group>"; };
+		845B005B22894DB900D7E51D /* LLDistributionProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDistributionProgressViewController.m; sourceTree = "<group>"; };
 		84EE751993EAF8CF4A3DA3B2 /* Pods-LLBaseComponentLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLBaseComponentLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLBaseComponentLib_Example/Pods-LLBaseComponentLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F137306602F97D00AD60496 /* Pods_LLBaseComponentLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLBaseComponentLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +155,8 @@
 		6003F593195388D20070C39A /* Example for LLBaseComponentLib */ = {
 			isa = PBXGroup;
 			children = (
+				845B0052228947DD00D7E51D /* 配送进度条 */,
+				845B004222893D9400D7E51D /* 横向滚动 */,
 				845B002F2289052E00D7E51D /* 按钮加减器 */,
 				845B00262288FA9900D7E51D /* 售出:抢购进度条 */,
 				84551C2022856536000550A1 /* 双向滑动 */,
@@ -238,6 +249,26 @@
 				845B00312289054B00D7E51D /* LLNumberButtonViewController.m */,
 			);
 			path = "按钮加减器";
+			sourceTree = "<group>";
+		};
+		845B004222893D9400D7E51D /* 横向滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				845B004322893DB900D7E51D /* LLHorizontalCollectionDemoViewController.h */,
+				845B004422893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m */,
+				845B004622893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.h */,
+				845B004722893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m */,
+			);
+			path = "横向滚动";
+			sourceTree = "<group>";
+		};
+		845B0052228947DD00D7E51D /* 配送进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				845B005A22894DB900D7E51D /* LLDistributionProgressViewController.h */,
+				845B005B22894DB900D7E51D /* LLDistributionProgressViewController.m */,
+			);
+			path = "配送进度条";
 			sourceTree = "<group>";
 		};
 		8C4D3349667107A6A1EB175C /* Pods */ = {
@@ -498,7 +529,10 @@
 				845B00322289054B00D7E51D /* LLNumberButtonViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */,
+				845B004822893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				845B004522893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m in Sources */,
+				845B005C22894DB900D7E51D /* LLDistributionProgressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
