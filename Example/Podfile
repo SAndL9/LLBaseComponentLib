@@ -9,5 +9,6 @@ target 'LLBaseComponentLib_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase'
+    pod 'Masonry'
   end
 end

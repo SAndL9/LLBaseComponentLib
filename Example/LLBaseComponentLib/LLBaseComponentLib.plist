@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>双向滑动</string>
+		<key>ViewControllerName</key>
+		<string>LLSliderDemoViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>卡片效果</string>
+		<key>ViewControllerName</key>
+		<string>LLCardEffectViewController</string>
+	</dict>
+</array>
+</plist>
