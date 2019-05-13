@@ -14,5 +14,17 @@
 		<key>ViewControllerName</key>
 		<string>LLCardEffectViewController</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>售出/抢购进度条</string>
+		<key>ViewControllerName</key>
+		<string>LLProgressDemoViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>数字加减器</string>
+		<key>ViewControllerName</key>
+		<string>LLNumberButtonViewController</string>
+	</dict>
 </array>
 </plist>

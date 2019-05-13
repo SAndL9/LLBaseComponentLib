@@ -24,6 +24,8 @@
 		84551BDE22854994000550A1 /* LLCardEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551BDD22854994000550A1 /* LLCardEffectViewController.m */; };
 		84551BE0228549DA000550A1 /* LLBaseComponentLib.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84551BDF228549DA000550A1 /* LLBaseComponentLib.plist */; };
 		84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551C222285655F000550A1 /* LLSliderDemoViewController.m */; };
+		845B00292288FAB900D7E51D /* LLProgressDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B00282288FAB900D7E51D /* LLProgressDemoViewController.m */; };
+		845B00322289054B00D7E51D /* LLNumberButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B00312289054B00D7E51D /* LLNumberButtonViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B6D6CB5961C85D4B2533C3F5 /* Pods_LLBaseComponentLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F5A1C81E4B7158AF9189D1 /* Pods_LLBaseComponentLib_Tests.framework */; };
 		BEB7A76792CF8926758FF15F /* Pods_LLBaseComponentLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F137306602F97D00AD60496 /* Pods_LLBaseComponentLib_Example.framework */; };
@@ -67,6 +69,10 @@
 		84551BDF228549DA000550A1 /* LLBaseComponentLib.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LLBaseComponentLib.plist; sourceTree = "<group>"; };
 		84551C212285655F000550A1 /* LLSliderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSliderDemoViewController.h; sourceTree = "<group>"; };
 		84551C222285655F000550A1 /* LLSliderDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSliderDemoViewController.m; sourceTree = "<group>"; };
+		845B00272288FAB900D7E51D /* LLProgressDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLProgressDemoViewController.h; sourceTree = "<group>"; };
+		845B00282288FAB900D7E51D /* LLProgressDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressDemoViewController.m; sourceTree = "<group>"; };
+		845B00302289054B00D7E51D /* LLNumberButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNumberButtonViewController.h; sourceTree = "<group>"; };
+		845B00312289054B00D7E51D /* LLNumberButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNumberButtonViewController.m; sourceTree = "<group>"; };
 		84EE751993EAF8CF4A3DA3B2 /* Pods-LLBaseComponentLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLBaseComponentLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLBaseComponentLib_Example/Pods-LLBaseComponentLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F137306602F97D00AD60496 /* Pods_LLBaseComponentLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLBaseComponentLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +146,8 @@
 		6003F593195388D20070C39A /* Example for LLBaseComponentLib */ = {
 			isa = PBXGroup;
 			children = (
+				845B002F2289052E00D7E51D /* 按钮加减器 */,
+				845B00262288FA9900D7E51D /* 售出:抢购进度条 */,
 				84551C2022856536000550A1 /* 双向滑动 */,
 				84551BDB22854964000550A1 /* 卡片效果 */,
 				6003F59C195388D20070C39A /* LLAppDelegate.h */,
@@ -212,6 +220,24 @@
 				84551C222285655F000550A1 /* LLSliderDemoViewController.m */,
 			);
 			path = "双向滑动";
+			sourceTree = "<group>";
+		};
+		845B00262288FA9900D7E51D /* 售出:抢购进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				845B00272288FAB900D7E51D /* LLProgressDemoViewController.h */,
+				845B00282288FAB900D7E51D /* LLProgressDemoViewController.m */,
+			);
+			path = "售出:抢购进度条";
+			sourceTree = "<group>";
+		};
+		845B002F2289052E00D7E51D /* 按钮加减器 */ = {
+			isa = PBXGroup;
+			children = (
+				845B00302289054B00D7E51D /* LLNumberButtonViewController.h */,
+				845B00312289054B00D7E51D /* LLNumberButtonViewController.m */,
+			);
+			path = "按钮加减器";
 			sourceTree = "<group>";
 		};
 		8C4D3349667107A6A1EB175C /* Pods */ = {
@@ -468,6 +494,8 @@
 			files = (
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				84551BDE22854994000550A1 /* LLCardEffectViewController.m in Sources */,
+				845B00292288FAB900D7E51D /* LLProgressDemoViewController.m in Sources */,
+				845B00322289054B00D7E51D /* LLNumberButtonViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
