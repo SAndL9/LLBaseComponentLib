@@ -21,6 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8443C1B322EFD7A100AAA33C /* LLCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443C1B122EFD7A100AAA33C /* LLCollectionReusableView.m */; };
+		8443C1B422EFD7A100AAA33C /* LLCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443C1B222EFD7A100AAA33C /* LLCollectionReusableView.xib */; };
+		8443C1B722EFD7C500AAA33C /* LLCollectionHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443C1B622EFD7C500AAA33C /* LLCollectionHeaderViewController.m */; };
 		84551BDE22854994000550A1 /* LLCardEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551BDD22854994000550A1 /* LLCardEffectViewController.m */; };
 		84551BE0228549DA000550A1 /* LLBaseComponentLib.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84551BDF228549DA000550A1 /* LLBaseComponentLib.plist */; };
 		84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84551C222285655F000550A1 /* LLSliderDemoViewController.m */; };
@@ -67,6 +70,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8443C1B022EFD7A100AAA33C /* LLCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCollectionReusableView.h; sourceTree = "<group>"; };
+		8443C1B122EFD7A100AAA33C /* LLCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCollectionReusableView.m; sourceTree = "<group>"; };
+		8443C1B222EFD7A100AAA33C /* LLCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLCollectionReusableView.xib; sourceTree = "<group>"; };
+		8443C1B522EFD7C500AAA33C /* LLCollectionHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCollectionHeaderViewController.h; sourceTree = "<group>"; };
+		8443C1B622EFD7C500AAA33C /* LLCollectionHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCollectionHeaderViewController.m; sourceTree = "<group>"; };
 		84551BDC22854994000550A1 /* LLCardEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCardEffectViewController.h; sourceTree = "<group>"; };
 		84551BDD22854994000550A1 /* LLCardEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCardEffectViewController.m; sourceTree = "<group>"; };
 		84551BDF228549DA000550A1 /* LLBaseComponentLib.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LLBaseComponentLib.plist; sourceTree = "<group>"; };
@@ -155,6 +163,7 @@
 		6003F593195388D20070C39A /* Example for LLBaseComponentLib */ = {
 			isa = PBXGroup;
 			children = (
+				8443C1AF22EFD78100AAA33C /* UICollection头部悬停 */,
 				845B0052228947DD00D7E51D /* 配送进度条 */,
 				845B004222893D9400D7E51D /* 横向滚动 */,
 				845B002F2289052E00D7E51D /* 按钮加减器 */,
@@ -213,6 +222,18 @@
 				C5255078C6D1E562340D8957 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8443C1AF22EFD78100AAA33C /* UICollection头部悬停 */ = {
+			isa = PBXGroup;
+			children = (
+				8443C1B022EFD7A100AAA33C /* LLCollectionReusableView.h */,
+				8443C1B122EFD7A100AAA33C /* LLCollectionReusableView.m */,
+				8443C1B522EFD7C500AAA33C /* LLCollectionHeaderViewController.h */,
+				8443C1B622EFD7C500AAA33C /* LLCollectionHeaderViewController.m */,
+				8443C1B222EFD7A100AAA33C /* LLCollectionReusableView.xib */,
+			);
+			path = "UICollection头部悬停";
 			sourceTree = "<group>";
 		};
 		84551BDB22854964000550A1 /* 卡片效果 */ = {
@@ -370,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				8443C1B422EFD7A100AAA33C /* LLCollectionReusableView.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				84551BE0228549DA000550A1 /* LLBaseComponentLib.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -528,10 +550,12 @@
 				845B00292288FAB900D7E51D /* LLProgressDemoViewController.m in Sources */,
 				845B00322289054B00D7E51D /* LLNumberButtonViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
+				8443C1B722EFD7C500AAA33C /* LLCollectionHeaderViewController.m in Sources */,
 				84551C232285655F000550A1 /* LLSliderDemoViewController.m in Sources */,
 				845B004822893DF000D7E51D /* LLHorizontalCollectionDemoViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				845B004522893DB900D7E51D /* LLHorizontalCollectionDemoViewController.m in Sources */,
+				8443C1B322EFD7A100AAA33C /* LLCollectionReusableView.m in Sources */,
 				845B005C22894DB900D7E51D /* LLDistributionProgressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

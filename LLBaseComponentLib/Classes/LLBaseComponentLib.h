@@ -14,4 +14,6 @@
 #import "LLNumberButton.h" //按钮加减器
 #import "LLHorizontalCollectionViewFlowLayout.h" //横向滚动
 #import "LLDistributionProgressView.h" //配送进度条
+#import "LLSuspensionLayout.h"//uicollectionViewCell 头部悬停
+
 #endif /* LLBaseComponentLib_h */

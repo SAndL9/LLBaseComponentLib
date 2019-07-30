@@ -3,6 +3,12 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>ViewControllerName</key>
+		<string>LLCollectionHeaderViewController</string>
+		<key>title</key>
+		<string>UICollectionView头部悬停</string>
+	</dict>
+	<dict>
 		<key>title</key>
 		<string>双向滑动</string>
 		<key>ViewControllerName</key>
@@ -22,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>数字加减器</string>
+		<string>数字加减器+银行卡号分割位</string>
 		<key>ViewControllerName</key>
 		<string>LLNumberButtonViewController</string>
 	</dict>
